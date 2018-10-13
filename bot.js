@@ -45,7 +45,7 @@ client.user.setGame(`#$aTààŅ , ÓuŤ `,"http://twitch.tv/S-F")
   console.log('')
 });
 
-const prefix = "1"
+const prefix = "$"
 client.on('message', async msg => { 
 	
 	if (msg.author.bot) return undefined;
